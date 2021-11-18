@@ -123,7 +123,7 @@ button{
     
     .login form {
         height: 400px;
-        width: 390px;
+        width: 350px;
     }
 
     .register {
@@ -132,6 +132,6 @@ button{
 
     .register form {
         height: 570px;
-        width: 390px;
+        width: 350px;
     }
 }
