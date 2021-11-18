@@ -1,21 +1,27 @@
-*,
+/* *,
 *:before,
 *:after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 body{
+    margin: 0;
+    padding: 0;
     background-color: #080710;
 }
 
-.background{
+/* .background{
     width: 430px;
     height: 520px;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
+} */
+
+.login{
+    margin-top: 350px;
 }
 
 .login form{
@@ -38,8 +44,12 @@ body{
     text-decoration: underline;
 }
 
+.register{
+    margin-top: 370px;
+}
+
 .register form{
-    height: 550px;
+    height: 570px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
@@ -100,4 +110,28 @@ button{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/*................... Media Queires ...................*/
+
+/*....................... Phone ..............*/
+
+@media only screen and (max-width: 425px) {
+    .login {
+        margin-top: 320px;
+    }
+    
+    .login form {
+        height: 400px;
+        width: 390px;
+    }
+
+    .register {
+        margin-top: 360px;
+    }
+
+    .register form {
+        height: 570px;
+        width: 390px;
+    }
 }
