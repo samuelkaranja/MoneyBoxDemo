@@ -9,6 +9,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #080710;
+    /* background-image: url('../coin.jpg'); */
 }
 
 /* .background{
@@ -61,6 +62,20 @@ body{
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 45px 25px;
+}
+
+.deposit{
+    margin-top: 160px;
+}
+
+.deposit span{
+    color: #ffffff;
+    text-align: center;
+}
+
+.deposit .mpesa{
+    color: #ffffff;
+    margin-top: 15px;
 }
 
 form *{
