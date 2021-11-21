@@ -1,48 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- <script src="https://use.fontawesome.com/ec31bc82ec.js"></script> -->
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+  <!-- Design by foolishdeveloper.com -->
+    <title>Home</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-    <title>Login Form</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-    <body>
-        <section class="login">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-6">
-                        <form>
-                            <h3>Login Here</h3>
 
-                            <input type="tel" placeholder="Phone Number" required>
-
-                            <input type="password" placeholder="Password" id="password" required>
-
-                            <button type="submit">Log In</button>
-
-                            <a href="register.html">Register Here</a>
-                        </form>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="row cstm-nav">
+            <div class="col-4">
+            <span class="winners">17723</span><br>
+            <span class="winners-hlpr-txt">WINNERS</span>
             </div>
-        </section>
+            <div class="col-4">
+            <p class="pt-10pc"><a href="index.html">LOGO</a></p>
+            </div>
+            <div class="col-4">
+            <p class="pt-10pc"><a href="register.html"><i class="fa fa-user-circle"></i> Signup</a></p>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <body>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="header-img">
+              <center>
+                <img class="main-img" src="img/main.png">
+              </center>
+            </div>
+          </div>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+          <div class="row justify-content-center">
+            <form>
+              <div class="form-group">
+                <input type="tel" required class="form-control user_phone_number" id="user_phone_number" aria-describedby="phone_number" placeholder="Enter your phone number">
+              </div>
+        
+              <button onclick="window.location.href='play-chests.html'" class="btn btn-success play-btn-cstm">PLAY NOW</button>
+            </form>
+          </div>
+
+          <p class="text-center table-heading-txt">Latest Winners</p>
+          <div class="row justify-content-center">
+            <table class="table table-bordered table-wdth-cstm table-striped table-light">
+              <thead>
+                <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>21/05/2021</td>
+                  <td>John Doe</td>
+                  <td>1000</td>
+                </tr>
+                <tr>
+              
+                  <td>21/05/2021</td>
+                  <td>John Doe</td>
+                  <td>1000</td>
+                </tr>
+                <tr>
+                  <td>21/05/2021</td>
+                  <td>John Doe</td>
+                  <td>1000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+        
+    </body>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://mdbootstrap.com/"> MoneyChest.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    -->
-    </body>
 </html>
