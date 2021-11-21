@@ -35,7 +35,7 @@ body{
     height: 400px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
-    margin: 5% auto 10% auto;
+    margin: 10% auto;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
@@ -57,8 +57,7 @@ body{
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 45px 25px;
-    
+    padding: 45px 25px;   
 }
 
 .deposit{
@@ -210,21 +209,17 @@ button{
 /*....................... Phone ..............*/
 
 @media only screen and (max-width: 600px) {
-    .login {
-        margin-top: 320px;
-    }
     
-    .login form {
-        height: 400px;
-        width: 350px;
+    .navbar {
+        padding: 0 !important;
     }
 
-    .register {
-        margin-top: 360px;
+    .login form {
+        height: 500px;
     }
 
     .register form {
         height: 570px;
-        width: 350px;
+        margin: 5% 0;
     }
 }
