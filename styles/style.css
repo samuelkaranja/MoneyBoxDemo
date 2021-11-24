@@ -231,6 +231,6 @@ button{
     .register form {
         height: 570px;
         width: 345px;
-        margin: 5% 0;
+        /* margin: 5% 0; */
     }
 }
