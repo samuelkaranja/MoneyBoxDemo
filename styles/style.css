@@ -219,14 +219,18 @@ button{
         width: 85%;
     }
 
+    .login{
+        margin: 50px 0;
+    }
+
     .login form {
-        height: 500px;
-        width: 350px;
+        height: 400px;
+        width: 345px;
     }
 
     .register form {
         height: 570px;
-        width: 350px;
+        width: 345px;
         margin: 5% 0;
     }
 }
