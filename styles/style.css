@@ -86,7 +86,8 @@ body{
 
 .deposit .mpesa{
     background: #ffffff;
-    padding: 8px 25px;
+    /* padding: 8px 25px; */
+    padding: 20px 25px 5px 30px;
     border-radius: 10px;
     color: #000000;
     margin-top: 15px;
@@ -220,10 +221,12 @@ button{
 
     .login form {
         height: 500px;
+        width: 350px;
     }
 
     .register form {
         height: 570px;
+        width: 350px;
         margin: 5% 0;
     }
 }
