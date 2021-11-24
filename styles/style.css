@@ -214,6 +214,10 @@ button{
         padding: 0 !important;
     }
 
+    .table-wdth-cstm {
+        width: 85%;
+    }
+
     .login form {
         height: 500px;
     }
