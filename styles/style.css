@@ -39,7 +39,7 @@ body{
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    /* box-shadow: 0 0 40px rgba(8,7,16,0.6); */
     padding: 70px 35px;
 }
 
@@ -52,11 +52,12 @@ body{
     height: 550px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
-    margin: 5% auto 10% auto;
+    /* margin: 5% auto 10% auto; */
+    margin: 5% auto;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    /* box-shadow: 0 0 40px rgba(8,7,16,0.6); */
     padding: 45px 25px;   
 }
 
@@ -86,7 +87,6 @@ body{
 
 .deposit .mpesa{
     background: #ffffff;
-    /* padding: 8px 25px; */
     padding: 20px 25px 5px 30px;
     border-radius: 10px;
     color: #000000;
