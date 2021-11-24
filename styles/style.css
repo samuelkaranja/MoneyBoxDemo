@@ -216,6 +216,10 @@ button{
         padding: 0 !important;
     }
 
+    .cstm-nav {
+        padding-left: 35px;
+    }
+
     .table-wdth-cstm {
         width: 90%;
     }
